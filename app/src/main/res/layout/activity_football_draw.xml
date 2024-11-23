@@ -87,8 +87,8 @@
         app:layout_constraintVertical_bias="0.146" />
 
     <ImageView
-        android:layout_width="210dp"
-        android:layout_height="200dp"
+        android:layout_width="290dp"
+        android:layout_height="210dp"
         android:src="@drawable/soccer_goal"
         app:layout_constraintBottom_toTopOf="@+id/btn_sort"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,7 +101,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
         android:backgroundTint="@color/silver"
-        android:text="Sortear"
+        android:text="@string/btn_sorteio"
         android:textColor="@color/green"
         android:textSize="20dp"
         android:textStyle="bold"

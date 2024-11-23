@@ -29,29 +29,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="80dp"
-        android:fontFamily="sans-serif-smallcaps"
+
         android:text="é compromisso."
         android:textAlignment="textEnd"
         android:textColor="@color/gold"
-        android:textSize="18dp"
+        android:textSize="22dp"
         android:textStyle="italic|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.146" />
+        app:layout_constraintVertical_bias="0.125" />
 
     <TextView
         android:id="@+id/tv_titleCenter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="344dp"
+
         android:text="Sorteie os times sem panelinha"
         android:textColor="@color/gold"
         android:textAlignment="center"
         android:textSize="26dp"
-        android:textStyle="italic"
+        android:textStyle="italic|bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_subtitle" />
 
@@ -68,7 +69,7 @@
         android:id="@+id/btn_init"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Iniciar"
+        android:text="@string/btn_init"
         android:textSize="20sp"
         android:textColor="@color/green"
         android:textStyle="bold"

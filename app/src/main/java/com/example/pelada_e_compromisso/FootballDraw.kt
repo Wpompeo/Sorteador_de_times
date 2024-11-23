@@ -16,6 +16,7 @@ class FootballDraw : AppCompatActivity() {
         setContentView(R.layout.activity_football_draw)
 
         val edtPlayers = findViewById<EditText>(R.id.edt_players)
+        edtPlayers.text?.clear()
         val edtKeyPlayers = findViewById<EditText>(R.id.key_head)
         val edtTeams = findViewById<EditText>(R.id.teams)
         val btnSort = findViewById<Button>(R.id.btn_sort)
