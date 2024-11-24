@@ -5,13 +5,13 @@
     <string name="btn_init">Iniciar</string>
     <string name="btn_finish">Finalizar</string>
     <string name="final_screen_title">Times sorteados:</string>
-    <string name="final_screen_subtitle">Times sorteados:</string>
+    <string name="final_screen_subtitle">Times sorteados</string>
     <string name="good_game_text">Bom jogo!</string>
-    <string name="second_screen_title">Insira as informações abaixo:</string>
+    <string name="second_screen_title">Insira as informações abaixo</string>
     <string name="text_teams">Nomes dos jogadores separados por vírgula:</string>
     <string name="key_head_text">Cabeças de chave:</string>
     <string name="text_number_of_teams">Quantidade de times:</string>
     <string name="text_title_screen_one">Pelada</string>
-    <string name="text__screen_subtitle">é compromisso.</string>
+    <string name="text__screen_subtitle">é compromisso</string>
     <string name="final_text_screen_one">Sorteie os times sem panelinha</string>
 </resources>

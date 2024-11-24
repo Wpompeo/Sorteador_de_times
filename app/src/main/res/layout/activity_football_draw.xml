@@ -14,11 +14,10 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-smallcaps"
         android:text="@string/second_screen_title"
         android:textAlignment="center"
-        android:textColor="@color/silver"
-        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textSize="27sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/edt_players"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,20 +30,21 @@
         android:id="@+id/edt_players"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/text_teams"
-        android:background="@drawable/rounded_edt_text"
-        android:textSize="23sp"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"
-        android:textColorHint="@color/green"
-        android:textColor="@color/green"
-        android:textAlignment="center"
+        android:background="@drawable/rounded_edt_text"
+        android:hint="@string/text_teams"
         android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224" />
+        app:layout_constraintVertical_bias="0.245" />
 
     <EditText
         android:id="@+id/key_head"
@@ -97,20 +97,20 @@
 
     <Button
         android:id="@+id/btn_sort"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:backgroundTint="@color/silver"
+        android:backgroundTint="@color/white"
         android:text="@string/btn_sorteio"
         android:textColor="@color/green"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/teams"
-        app:layout_constraintVertical_bias="0.742">
+        app:layout_constraintVertical_bias="0.809">
 
     </Button>
 
