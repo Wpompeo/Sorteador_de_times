@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pelada_E_Compromisso</string>
+    <string name="app_name">Pelada</string>
     <string name="btn_resort">Novo sorteio</string>
     <string name="btn_sorteio">Sortear</string>
     <string name="btn_init">Iniciar</string>
