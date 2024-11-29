@@ -1,11 +1,21 @@
 # PELADA é compromisso
 
 É um aplicativo desenvolvido para auxiliar na organização daquela PELADA tradicional. Feito em Kotlin para Android nativo, o aplicativo é composto por três telas.
+* Tela inicial.
+* Tela de entrada de dados: Jogadores, cabeças de chave e quantidade de times.
+* Tela final:Resultado do sorteio e botões para novo sorteio e finalizar aplicativo.
 
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-Screenshots
+
+<img src="https://github.com/user-attachments/assets/420da99b-2870-4c53-8f86-d6382f349659" width=200/>
+<img src="https://github.com/user-attachments/assets/4a200a56-ce8e-4b69-acbc-f533962a914e" width=200/>
+<img src="https://github.com/user-attachments/assets/0a5afacd-149b-4b7e-a926-0295ccb7ea6f" width=200/>
+<img src="https://github.com/user-attachments/assets/cadebb77-4f87-40fa-af08-911af9c97dbd" width=200/>
+<img src="https://github.com/user-attachments/assets/1edd324d-2c69-4d5a-8af2-2c46e258501e" width=200/>
+<img src="https://github.com/user-attachments/assets/a707f549-e284-400e-9e35-a30f72880a50" width=200/>
+
 
 
 ## Tecnologias
